@@ -1,0 +1,122 @@
+body {
+  background-color: #f0f2f5;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.card {
+  border-radius: 18px;
+}
+
+.card-header {
+  background-color: #ffffff;
+  border-bottom: 0;
+  font-weight: bold;
+}
+.card-body-1 p {
+  color: #65b946;
+  font-weight: 700;
+}
+.card-body-2 {
+  background-color: #65b946 !important;
+  color: #ffffff !important;
+}
+hr {
+  background-color: #65b946 !important;
+}
+.card-body-1 {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  height: 150px;
+}
+.nav-link {
+  font-weight: 700;
+  color: #838383;
+}
+.form-control {
+  border-radius: 20px;
+  border: none; /* إزالة الحدود */
+  margin-right: 1rem;
+  background-color: #f0f2f5;
+  margin-top: 10px;
+}
+.form-control:focus {
+  border-radius: 20px;
+  border: none; /* إزالة الحدود */
+  margin-right: 1rem;
+  background-color: #f0f2f5;
+  margin-top: 10px;
+}
+.form-control-1 {
+  width: 30rem;
+  margin-right: 10rem;
+  border: none; /* إزالة الحدود */
+}
+
+.nav-link img {
+  margin-right: 10px;
+}
+.input-group-text {
+  background-color: #f0f2f5;
+  margin-top: 10px;
+  background-color: #f0f2f5; /* يمكنك تغيير لون الخلفية */
+  border: none; /* إزالة الحدود */
+  padding: 0 8px; /* تعديل المساحة حول الأيقونة */
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.bx-search {
+  font-size: 20px; /* حجم الأيقونة */
+  color: #333; /* لون الأيقونة */
+}
+
+.btn-success {
+  background-color: #65b946 !important;
+  border: none;
+  font-size: 16px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.card-title {
+  position: relative;
+  left: 9rem;
+}
+h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(3, 3, 68, 0.911) !important;
+}
+.link-chart {
+  color: black;
+  text-decoration: none;
+}
+#attendanceChart {
+  width: 100% !important;
+  height: 300px !important;
+  max-width: 100% !important;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  #attendanceChart {
+    height: 150px; /* تقليل الارتفاع على الشاشات الأصغر */
+  }
+}
+
+@media (max-width: 480px) {
+  #attendanceChart {
+    height: 100px; /* تقليل الارتفاع أكثر على الشاشات الأصغر جدًا */
+  }
+}
